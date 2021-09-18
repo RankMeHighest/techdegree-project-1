@@ -17,6 +17,7 @@ a {
   text-decoration: none;
   color: #999;
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -49,10 +50,10 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
-  transition: all .5s;
+  transition: all 2s;
 }
 .nav a:hover {
-  color: white
+  color: white 
 }
 
 header {
@@ -74,7 +75,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -95,7 +96,7 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 10px;
   transition: all .5s;
 }
 .card:hover {
